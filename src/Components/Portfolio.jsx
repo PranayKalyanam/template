@@ -31,28 +31,28 @@ const imageAltText = "desktop with books and laptop";
  */
 const projectList = [
   {
-    title: "10 Things To Know About Azure Static Web Apps 🎉",
+    title: "Music App Website 🎉",
     description:
-      "Collaboration to create a beginner friendly article to help explain Azure Static Web Apps and tooling to get started.",
-    url: "https://dev.to/azure/10-things-to-know-about-azure-static-web-apps-3n4i",
+     "Designed and developed Music App Website where users can listen to songs.",
+    url: "https://github.com/PranayKalyanam/Music-web",
   },
   {
-    title: "Web Development for Beginners",
+    title: "To-do List Application",
     description:
-      "Contributed sketch note imagery to accompany each lesson. These help provide visual representation of what is being taught.",
+      " Designed, developed and deployed a fully functional To-Do List Application Website where user can add list of activities that he/she want to do.",
     url: "https://github.com/microsoft/web-dev-for-beginners",
   },
   {
     title: "My Resume Site",
     description:
       "Created from Microsoft's resume workshop and deployed to GitHub pages. Includes my experience and design abilities.",
-    url: "https://github.com/microsoft/workshop-library/tree/main/full/build-resume-website",
+    url: "https://github.com/PranayKalyanam/Add-note",
   },
   {
-    title: "GitHub Codespaces and github.dev",
+    title: "Shooting Game - A 3D Augmented Reality Game",
     description:
-      "Video interview to explain when to use GitHub.dev versus GitHub Codespaces, and how best to use each tool.",
-    url: "https://www.youtube.com/watch?v=c3hHhRME_XI",
+      " Designed, developed and deployed a fully functional A 3D Augmented Reality Shooting Game for Android and IOS, where player can shoot the objects which will appear in his/her mobile.",
+    url: "https://github.com/PranayKalyanam/AR_shootgame",
   },
 ];
 
@@ -64,7 +64,7 @@ const Portfolio = () => {
         <div style={{ maxWidth: "40%", alignSelf: "center" }}>
           <img
             src={image}
-            style={{ height: "90%", width: "100%", objectFit: "cover" }}
+            style={{ height: "90%", width: "100%", objectFit: "cover", margin: "0 4%",}}
             alt={imageAltText}
           />
         </div>
